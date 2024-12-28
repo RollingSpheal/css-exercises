@@ -49,6 +49,7 @@ ul {
 
 .header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 8px;
 }
@@ -60,8 +61,10 @@ ul {
   gap: 16px;
 }
 
-.left .right {
+.left,
+.right {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 16px;
 }
